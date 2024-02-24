@@ -4,9 +4,8 @@ import torch.nn.functional as F
 import numpy as np
 import copy
 
-
+# You can refer https://github.com/munhouiani/Deep-Packet.
 class Config(object):
-
     
     def __init__(self, dataset):
         self.model_name = 'deeppacket'

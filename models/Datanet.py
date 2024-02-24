@@ -32,13 +32,12 @@ class Model(nn.Module):
         #self.dropout = nn.Dropout(0.05)
         self.out = nn.Linear(in_features=32, out_features= config.num_classes)
         
-    def forward(self, t):        
+    def forward(self, x):        
     
-        t = self.fc1(t)
-        t = F.relu(t)
-        t = self.fc2(t)
-        t = F.relu(t)
+        x = self.fc1(x)
+        x = F.relu(x)
+        x = self.fc2(x)
+        x = F.relu(x)
 
-        t = self.out(t)
-        return t
-
+        x = self.out(x)
+        return 
