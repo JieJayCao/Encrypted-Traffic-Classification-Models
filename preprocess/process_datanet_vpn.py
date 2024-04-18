@@ -94,10 +94,18 @@ def all_path(dirname):
             result.append(apath)
     return result
 
+classes = {}
+def check(label):
+    if label not in classes:
+        classes[label] = 1
+    elif re[id] <= 50000:
+        classes[id] += 1
+        return True
+    else:
+        return False
+        
 if __name__ == '__main__':
 
-   
-    init()
     # source: packet or PCAP orgin file path
     source =  "/home/dl/Desktop/program/Traffic_class/Public_dataset/VPN-Pcaps/packet/" 
     root = os.listdir(source)
