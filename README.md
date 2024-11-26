@@ -26,4 +26,4 @@ Our encrypted traffic classification tasks are designed based on three of the mo
 
 ### Acknowledgements
 This project the pipeline structure is based on the Text Classification Pytorch implementation from the repository:
-[Text-Classification-Pytorch]([https://github.com/649453932/Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch/tree/master)).
+[Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch/tree/master).
