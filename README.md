@@ -13,8 +13,6 @@ Our encrypted traffic classification tasks are designed based on three of the mo
 
 ### Method list
 
-
-
 | Method Name | Paper Source                                                                                                                                                                                                                                                                                                                                                                                       |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1DCNN       | [End-to-end encrypted traffic classification with one-dimensional convolution neural networks](https://ieeexplore.ieee.org/abstract/document/8004872/)                                                                                                                                                                                                                                             |
@@ -25,3 +23,7 @@ Our encrypted traffic classification tasks are designed based on three of the mo
 | Datanet     | [Datanet: Deep Learning Based Encrypted Network Traffic Classification in SDN Home Gateway](https://ieeexplore.ieee.org/abstract/document/8473682/)                                                                                                                                                                                                                                                |
 | SAM         | [Self-attentive deep learning method for online traffic classification and its interpretability](https://www.sciencedirect.com/science/article/pii/S1389128621002930)                                                                                                                                                                                                                              |
 | ET-BERT     | [ET-BERT: A Contextualized Datagram Representation with Pre-training Transformers for Encrypted Traffic Classification](https://dl.acm.org/doi/abs/10.1145/3485447.3512217)                                                                                                                                                                                                                        |
+
+### Acknowledgements
+This project the pipeline structure is based on the Text Classification Pytorch implementation from the repository:
+[Text-Classification-Pytorch]([https://github.com/649453932/Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch/tree/master)).
