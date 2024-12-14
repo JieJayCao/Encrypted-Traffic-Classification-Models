@@ -52,4 +52,4 @@ class Model(nn.Module):
         out = self.dropout(out)
         
         out = self.out(out[:, -1, :]) 
-        return t
+        return out
